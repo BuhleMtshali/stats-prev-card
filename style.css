@@ -14,12 +14,11 @@ body {
   align-items: stretch;
   border-radius: 10px;
   border: none;
+  padding: 30px;
 }
 .left {
   background-color: hsl(244, 38%, 16%);
   padding: 20px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 .right {
@@ -27,8 +26,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 .right::before {
@@ -46,8 +43,6 @@ body {
   ); /* Adjust the opacity as needed */
   mix-blend-mode: multiply; /* Blend mode to create the accent effect */
   z-index: 1;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 img {
@@ -55,8 +50,6 @@ img {
   height: 100%;
   object-fit: cover;
   z-index: 0;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
 }
 h1 {
   margin-top: 10px;
@@ -71,6 +64,7 @@ h1 {
   font-size: 16px;
   margin-top: 15px;
   margin-bottom: 10px;
+  line-height: 25px;
 }
 .mid-container {
   display: flex;
